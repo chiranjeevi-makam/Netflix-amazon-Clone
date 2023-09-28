@@ -1,0 +1,205 @@
+.moviesDetailsContainer {
+  background-color: black;
+
+  width: 100vw;
+}
+.moviesPoster {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.moviePosterDetailsArrange {
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+}
+.movieTitle {
+  height: 47px;
+
+  font-family: HK Grotesk;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+.movie_overview {
+  width: 296px;
+  height: 63px;
+  top: 255px;
+  left: 32px;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.movieplayButton {
+  width: Hug (76px);
+  height: Hug (32px);
+  top: 342px;
+  left: 32.5px;
+  border-radius: 3px;
+}
+@media (min-width: 768px) {
+  .moviePosterDetailsArrange {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+  }
+  .movieTitle {
+    height: 63px;
+    top: 183px;
+    left: 164px;
+    font-family: HK Grotesk;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 63px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .dateAndTime {
+    display: flex;
+    color: #ffffff;
+    font-size: 48px;
+  }
+
+  .movie_overview {
+    width: 632px;
+    height: 78px;
+    top: 309px;
+    left: 164px;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .movieplayButton {
+    width: Hug (74px);
+    height: Hug (40px);
+    padding: 8px, 24px, 8px, 24px;
+    border-radius: 4px;
+    gap: 8px;
+    margin-bottom: 3px;
+  }
+}
+.dateAndTime {
+  display: flex;
+  color: #ffffff;
+  font-size: 24px;
+}
+.UA {
+  border: #ffffff solid 2px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.detailsMiddleCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100vw;
+}
+.describeItemsListUnorder {
+  width: 100px;
+}
+.describeHeading {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #64748b;
+}
+.describePara {
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+@media screen and (win-width: 768px) {
+  .describeHeading {
+    font-family: HK Grotesk;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #64748b;
+  }
+
+  .describePara {
+    font-family: HK Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .detailsMiddleCard {
+    display: flex;
+
+    justify-content: space-between;
+    width: 100vw;
+  }
+  .describeItemsListUnorder {
+    width: 300px;
+    /* padding-right: 100px;*/
+  }
+}
+.movieDetailsFinalCard {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.moreViesHead {
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 20px;
+}
+.similarItemsArrangement {
+  display: flex;
+
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.similar_poster {
+  width: 90px;
+  height: 64px;
+  margin: 5px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .similar_poster {
+    width: 255px;
+    height: 170px;
+    margin: 5px;
+    border-radius: 8px;
+  }
+}
+
+.movieDetailsLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}

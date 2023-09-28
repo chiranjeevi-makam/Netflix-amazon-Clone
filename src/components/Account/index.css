@@ -1,0 +1,128 @@
+.accountBackground {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.accountDetailsContainer {
+  background-color: #ffffff;
+  width: 100vw;
+  padding: 12px;
+}
+.accountHeading {
+  width: 90px;
+  height: 28px;
+  top: 107px;
+  left: 32px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #131313;
+}
+
+@media (min-width: 768px) {
+  .accountHeading {
+    width: 133px;
+    height: 47px;
+    top: 167px;
+    left: 165px;
+    font-family: HK Grotesk;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #131313;
+  }
+}
+.lineBrake {
+  color: #cbd5e1;
+}
+.memberShip {
+  width: 106px;
+  height: 23px;
+  top: 169px;
+  left: 32px;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #94a3b8;
+}
+.membership_pass_container {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .memberShip {
+    width: 142px;
+    height: 31px;
+    top: 264px;
+    left: 165px;
+    font-family: HK Grotesk;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #94a3b8;
+  }
+}
+.gmail {
+  height: 21px;
+
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+
+  color: #1e293b;
+}
+.nameAndPass {
+  margin-left: 5px;
+}
+.pass {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #64748b;
+}
+@media (min-width: 768px) {
+  .pass {
+    font-family: HK Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #64748b;
+  }
+}
+.ultra {
+  width: Hug (79px);
+  height: Hug (27px);
+  top: 391px;
+  left: 443px;
+  padding: 2px, 4px, 2px, 4px;
+  border-radius: 2px;
+  border: 1px;
+  gap: 10px;
+  border: 1px solid #1e293b;
+}
+.logoutButton {
+  background-color: red;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+}
+.buttonContainer {
+  text-align: center;
+}

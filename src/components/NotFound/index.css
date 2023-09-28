@@ -1,0 +1,105 @@
+.NotFoundBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/dl0acv1b8/image/upload/v1695268019/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_t9keft.png');
+  background-size: cover;
+  height: 100vh;
+}
+.notFoundHeading {
+  width: 286px;
+  height: 52px;
+  top: 226px;
+  left: 37px;
+  font-family: HK Grotesk;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #ffffff;
+}
+.notFoundPara {
+  width: 296px;
+  height: 63px;
+  top: 294px;
+  left: 32px;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.goHomeButton {
+  width: Hug (127px);
+  height: Hug (40px);
+  top: 373px;
+  left: 117px;
+  border-radius: 3px;
+  width: Hug (127px);
+  height: Hug (40px);
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 4px;
+  gap: 8px;
+  color: #171f46;
+  background-color: #ffffff;
+  border: none;
+}
+
+@media screen and(min-width:768px) {
+  .NotFoundBackground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dl0acv1b8/image/upload/v1695269853/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_1_iftcyd.png');
+    background-size: cover;
+    height: 100vh;
+  }
+  .notFoundHeading {
+    width: 686px;
+    height: 125px;
+    top: 362px;
+    left: 377px;
+    font-family: HK Grotesk;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 125px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .notFoundPara {
+    width: 610px;
+    height: 62px;
+    top: 519px;
+    left: 415px;
+    font-family: HK Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .goHomeButton {
+    width: Hug (127px);
+    height: Hug (48px);
+    top: 613px;
+    left: 657px;
+    border-radius: 3px;
+    width: Hug (127px);
+    height: Hug (48px);
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 4px;
+    gap: 8px;
+    color: #171f46;
+    background-color: #ffffff;
+    border: none;
+  }
+}

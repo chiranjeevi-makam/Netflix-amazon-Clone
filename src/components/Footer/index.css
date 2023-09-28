@@ -1,0 +1,17 @@
+.Fcontainer {
+  background: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 20vh;
+  color: aliceblue;
+}
+.iconsContainer {
+  display: flex;
+}
+.icon_margin {
+  margin: 5px;
+}

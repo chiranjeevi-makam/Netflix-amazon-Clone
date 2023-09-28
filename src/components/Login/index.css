@@ -1,0 +1,101 @@
+.background {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.logo {
+  width: 100px;
+  height: 27px;
+  top: 32px;
+  left: 32px;
+  align-self: flex-start;
+}
+
+.mainHeading {
+  width: 80px;
+  height: 40px;
+  top: 164px;
+  left: 32px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.inputElememt {
+  width: 296px;
+  height: 40px;
+  top: 24px;
+  border-radius: 2px;
+  background: #333333;
+}
+
+.labelElememt {
+  width: 65px;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.loginbutton {
+  width: 296px;
+  height: Hug (40px);
+  top: 404px;
+  left: 32px;
+  padding: 8px, 20px, 8px, 20px;
+  border-radius: 4px;
+  gap: 10px;
+  background: #e50914;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.error {
+  color: #dc2626;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media (min-width: 768px) {
+  .background {
+    background-image: url('https://res.cloudinary.com/djedlaeqd/image/upload/v1675828503/netfilx_1_mslavz.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .form {
+    width: 456px;
+    height: 440px;
+    top: 292px;
+    left: 492px;
+    border-radius: 8px;
+    opacity: 0.8px;
+    background: #0c0b10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    align-self: flex-start;
+  }
+}

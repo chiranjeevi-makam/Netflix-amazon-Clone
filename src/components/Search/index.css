@@ -1,0 +1,148 @@
+.search_background {
+  background-color: black;
+  width: 100vw;
+}
+.searc_head_container {
+  display: flex;
+  width: 100vw;
+  padding: 10px;
+  justify-content: space-between;
+}
+.search_app_logo {
+  width: 100px;
+  height: 27px;
+
+  padding: 0px, 0px, 0px, 0px;
+}
+.input_and_menu {
+  display: flex;
+  justify-content: space-around;
+}
+.input_and_icon {
+  display: flex;
+  border: 1px solid #ffffff;
+  height: 24px;
+  border-radius: 4px;
+}
+.inputElement {
+  width: 140px;
+}
+.search_menu_button {
+  background-color: transparent;
+  border: none;
+  margin-left: 2px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.search_menu_options {
+  list-style-type: none;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+.text_Menu_optins {
+  text-decoration: none;
+  color: #ffffff;
+}
+.both_options_nav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .searc_head_container {
+    display: none;
+  }
+}
+.medium_screen_head_search_container {
+  display: none;
+}
+@media (min-width: 768px) {
+  .medium_screen_head_search_container {
+    display: flex;
+    padding: 10px;
+    width: 100vw;
+  }
+
+  .search_app_logo {
+    width: 135px;
+    height: 39px;
+
+    padding: 0px, 0px, 0px, 0px;
+  }
+  .details_of_medium {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+  }
+
+  .input_md_screen {
+    display: flex;
+    list-style-type: none;
+  }
+  .input_structure {
+    display: flex;
+
+    width: 264px;
+  }
+  .order_md {
+    list-style-type: none;
+    display: flex;
+  }
+  .input_width_md {
+    width: 264px;
+    height: 45px;
+  }
+  .accountImagesearch {
+    margin: 5px;
+  }
+  .Option_name {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 3px;
+  }
+
+  .Option_name:hover {
+    color: red;
+    text-decoration: none;
+  }
+}
+.searchPosterList {
+  display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.posterImageSearch {
+  width: 90px;
+  height: 100px;
+
+  border-radius: 4px;
+  margin: 2px;
+}
+
+@media (min-width: 768px) {
+  .posterImageSearch {
+    width: 255px;
+    height: 170px;
+
+    border-radius: 8px;
+  }
+}
+.nodataSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.loadingContainerSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.nodataText {
+  color: #ffffff;
+  text-align: center;
+}

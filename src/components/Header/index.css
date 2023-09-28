@@ -1,0 +1,131 @@
+.headBackground {
+  background: transparent;
+  width: 95vw;
+  background-size: cover;
+
+  padding: 5px;
+}
+.logoandmenu {
+  display: flex;
+  justify-content: space-between;
+}
+.logosize {
+  width: 100px;
+  height: 27px;
+  top: 24px;
+  left: 32px;
+  padding: 0px, 0px, 0px, 0px;
+}
+.weblogo {
+  display: none;
+}
+.searchAndmenu {
+  display: flex;
+}
+.searchIcon {
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  top: 26px;
+  left: 264px;
+  margin: 3px;
+  color: aliceblue;
+}
+.menuIcon {
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  top: 30px;
+  left: 304px;
+  color: aliceblue;
+}
+.showInSmall {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.mediumScreenItems {
+  display: none;
+}
+.listItemsColor {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .headBackground {
+    background: transparent;
+    width: 95vw;
+    background-size: cover;
+
+    padding: 5px;
+    display: flex;
+    height: 103px;
+    opacity: 0.2px;
+  }
+  .logoandmenu {
+    display: none;
+  }
+  .showInSmall {
+    display: none;
+  }
+
+  .weblogo {
+    display: inline-block;
+    width: 135px;
+    height: 39px;
+    top: 32px;
+    left: 165px;
+    padding: 0px, 0px, 0px, 0px;
+  }
+
+  .mediumScreenItems {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+  }
+  .accountImage {
+    width: 48px;
+    height: 48px;
+    top: 50px;
+    left: 107px;
+  }
+
+  .unorder {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .searchIcon {
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    left: 1171px;
+  }
+  .home {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .popular {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .home:hover {
+    color: red;
+  }
+  .popular:hover {
+    color: red;
+  }
+}

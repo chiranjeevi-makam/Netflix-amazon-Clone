@@ -1,0 +1,118 @@
+.posterBackground {
+  height: 40vh;
+  background-size: cover;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-end;
+
+  margin: 2px;
+}
+.details {
+  align-self: flex-start;
+  color: aliceblue;
+}
+.para {
+  height: 63px;
+  width: 260px;
+  top: 255px;
+  left: 32px;
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  overflow: hidden;
+}
+.heading {
+  height: 47px;
+  top: 159px;
+  left: 32px;
+  font-family: HK Grotesk;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.playbutton {
+  top: 342px;
+  left: 32.5px;
+  border-radius: 3px;
+  border: none;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .posterBackground {
+    height: 60vh;
+    background-size: cover;
+
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    margin: 2px;
+  }
+  .para {
+    width: 632px;
+    height: 78px;
+    top: 309px;
+    left: 164px;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  .heading {
+    width: 700px;
+    height: 62px;
+    top: 223px;
+    left: 164px;
+    font-family: HK Grotesk;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .playbutton {
+    top: 419px;
+    left: 164.5px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px;
+  }
+}
+
+.loadContainer {
+  width: 100vw;
+  height: 70vh;
+  border-radius: 5px;
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.failContainer {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
