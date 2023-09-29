@@ -70,7 +70,7 @@ class TrendingVideos extends Component {
       case 'Success':
         return <ReactSilk moviesList={movies} />
       case 'Fail':
-        return <FailView retry={this.getTrendingVideos()} />
+        return <FailView retry={this.retry} />
 
       default:
         return null

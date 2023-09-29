@@ -8,6 +8,8 @@ import Loading from '../Loading'
 
 import FailView from '../FailView'
 
+import Header from '../Header'
+
 const initial = {
   success: 'Success',
   loading: 'Loading',
@@ -70,8 +72,9 @@ class Poster extends Component {
           width: '99vw',
         }}
       >
-        <h1 className="heading">{title}</h1>
-        <p className="para">{overview}</p>
+        <Header />
+        <h1 className="headinghome">{title}</h1>
+        <p className="parahome">{overview}</p>
         <div>
           <button type="button" className="playbutton">
             Play

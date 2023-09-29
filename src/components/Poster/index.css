@@ -5,7 +5,6 @@
   display: flex;
 
   flex-direction: column;
-  justify-content: flex-end;
 
   margin: 2px;
 }
@@ -13,11 +12,10 @@
   align-self: flex-start;
   color: aliceblue;
 }
-.para {
+.parahome {
   height: 63px;
   width: 260px;
-  top: 255px;
-  left: 32px;
+
   font-family: HK Grotesk;
   font-size: 16px;
   font-weight: 500;
@@ -26,11 +24,11 @@
   text-align: left;
   color: #ffffff;
   overflow: hidden;
+  padding-left: 10px;
 }
-.heading {
+.headinghome {
   height: 47px;
-  top: 159px;
-  left: 32px;
+  padding-bottom: 3px;
   font-family: HK Grotesk;
   font-size: 36px;
   font-weight: 600;
@@ -38,6 +36,8 @@
   letter-spacing: 0px;
   text-align: left;
   color: #ffffff;
+  padding-left: 10px;
+  padding-top: 70px;
 }
 
 .playbutton {
@@ -59,7 +59,7 @@
 
     margin: 2px;
   }
-  .para {
+  .parahome {
     width: 632px;
     height: 78px;
     top: 309px;
@@ -72,12 +72,12 @@
     text-align: left;
     color: #ffffff;
     overflow: hidden;
+    padding-left: 10px;
   }
-  .heading {
+  .headinghome {
     width: 700px;
     height: 62px;
-    top: 223px;
-    left: 164px;
+    padding-bottom: 3px;
     font-family: HK Grotesk;
     font-size: 64px;
     font-weight: 600;
@@ -85,6 +85,7 @@
     letter-spacing: 0px;
     text-align: left;
     color: #ffffff;
+    padding-left: 10px;
   }
 
   .playbutton {

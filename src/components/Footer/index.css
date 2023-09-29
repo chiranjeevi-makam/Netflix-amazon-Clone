@@ -11,7 +11,12 @@
 }
 .iconsContainer {
   display: flex;
+  list-style-type: none;
 }
 .icon_margin {
   margin: 5px;
+}
+
+.paraContact {
+  color: #ffffff;
 }

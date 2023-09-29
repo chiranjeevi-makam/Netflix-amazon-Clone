@@ -107,14 +107,6 @@
   }
 }
 .ultra {
-  width: Hug (79px);
-  height: Hug (27px);
-  top: 391px;
-  left: 443px;
-  padding: 2px, 4px, 2px, 4px;
-  border-radius: 2px;
-  border: 1px;
-  gap: 10px;
   border: 1px solid #1e293b;
 }
 .logoutButton {
@@ -125,4 +117,10 @@
 }
 .buttonContainer {
   text-align: center;
+}
+@media (min-width: 768px) {
+  .ultra {
+    border: 1px solid #1e293b;
+    height: 25px;
+  }
 }

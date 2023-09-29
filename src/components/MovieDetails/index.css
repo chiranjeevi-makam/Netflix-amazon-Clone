@@ -36,6 +36,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+  overflow: hidden;
 }
 .movieplayButton {
   width: Hug (76px);
@@ -80,6 +81,7 @@
     letter-spacing: 0px;
     text-align: left;
     color: #ffffff;
+    overflow: hidden;
   }
   .movieplayButton {
     width: Hug (74px);

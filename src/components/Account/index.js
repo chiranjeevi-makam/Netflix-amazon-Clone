@@ -18,7 +18,7 @@ const Account = props => {
         <h1 className="accountHeading">Account</h1>
         <hr className="lineBrake" />
         <div className="membership_pass_container">
-          <h1 className="memberShip">Member ship </h1>
+          <p className="memberShip">Member ship </p>
           <div className="nameAndPass ">
             <p className="gmail">rahul@gmail.com</p>
             <p className="pass">Password : ************</p>
@@ -26,7 +26,7 @@ const Account = props => {
         </div>
         <hr className="lineBrake" />
         <div className="membership_pass_container">
-          <h1 className="memberShip">Plan details</h1>
+          <p className="memberShip">Plan details</p>
           <p className="gmail">Premium </p>
           <p className="ultra">Ultra HD</p>
         </div>
