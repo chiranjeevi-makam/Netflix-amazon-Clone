@@ -7,7 +7,6 @@ import {HiOutlineSearch} from 'react-icons/hi'
 import {MdMenuOpen} from 'react-icons/md'
 import {ImCross} from 'react-icons/im'
 
-import Footer from '../Footer'
 import FailView from '../FailView'
 import Loading from '../Loading'
 
@@ -21,18 +20,17 @@ class Search extends Component {
   state = {
     menuSearchList: false,
     searchInput: '',
-    status: initial.loading,
+    status: '',
     moviesSearch: [],
   }
 
-  componentDidMount() {
-    this.getSearchMoviesDetails()
-  }
-
   getSearchMoviesDetails = async () => {
-    const {searchInput} = this.state
+    const {status, searchInput} = this.state
+
+    this.setState({status: initial.loading})
 
     const jwtToken = Cookies.get('jwt_token')
+
     const url = `https://apis.ccbp.in/movies-app/movies-search?search=${searchInput}`
     const options = {
       method: 'GET',
@@ -65,17 +63,22 @@ class Search extends Component {
   retry = () => this.getSearchMoviesDetails()
 
   searchSuccess = () => {
-    const {moviesSearch} = this.state
+    const {moviesSearch, searchInput} = this.state
+    if (searchInput === '') {
+      return <p className="nodataText">Please enter a search query.</p>
+    }
+
     if (moviesSearch.length > 0) {
       return (
         <ul className="searchPosterList">
           {moviesSearch.map(each => (
             <Link to={`/movies/${each.id}`} key={each.id}>
-              <li>
+              <li key={each.id}>
                 <img
                   src={each.posterPath}
                   alt={each.title}
                   className="posterImageSearch"
+                  key={each.id}
                 />
               </li>
             </Link>
@@ -83,6 +86,7 @@ class Search extends Component {
         </ul>
       )
     }
+
     return (
       <div className="nodataSearch">
         <img
@@ -90,7 +94,7 @@ class Search extends Component {
           alt="no movies"
         />
         <p className="nodataText">
-          Your search for dsadsdsada did not find any matches.
+          Your search for {searchInput} did not find any matches.
         </p>
       </div>
     )
@@ -221,7 +225,6 @@ class Search extends Component {
           ) : null}
         </div>
         {this.successRenderSearch()}
-        <Footer />
       </div>
     )
   }

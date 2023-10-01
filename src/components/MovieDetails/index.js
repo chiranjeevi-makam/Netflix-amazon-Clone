@@ -135,7 +135,7 @@ class MovieDetails extends Component {
 
         <div className="detailsMiddleCard">
           <ul className="describeItemsListUnorder">
-            <h1 className="describeHeading">Genres</h1>
+            <h1 className="describeHeading">genres</h1>
             {genres.map(each => (
               <p className="describePara" key={each.id}>
                 {each.name}

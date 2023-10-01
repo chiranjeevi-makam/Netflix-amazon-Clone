@@ -70,6 +70,7 @@ class Popular extends Component {
                 src={each.posterUrl}
                 className="popular_movies_poster"
                 alt={each.title}
+                key={each.id}
               />
             </li>
           </Link>
