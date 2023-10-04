@@ -65,7 +65,7 @@ class Search extends Component {
   searchSuccess = () => {
     const {moviesSearch, searchInput} = this.state
     if (searchInput === '') {
-      return <p className="nodataText">Please enter a search query.</p>
+      return null
     }
 
     if (moviesSearch.length > 0) {
@@ -132,7 +132,8 @@ class Search extends Component {
   }
 
   render() {
-    const {menuSearchList} = this.state
+    const {menuSearchList, status} = this.state
+    console.log(status)
     return (
       <div className="search_background">
         <div className="both_options_nav">
