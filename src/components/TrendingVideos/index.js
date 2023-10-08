@@ -49,8 +49,7 @@ class TrendingVideos extends Component {
         title: each.title,
       }))
 
-      this.setState({status: initial.success})
-      this.setState({movies: updateMovies})
+      this.setState({status: initial.success, movies: updateMovies})
     } else {
       this.setState({status: initial.fail})
     }

@@ -1,6 +1,6 @@
 .headBackground {
-  background: transparent;
-  width: 95vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
   background-size: cover;
 
   padding: 5px;
@@ -60,8 +60,8 @@
 
 @media (min-width: 768px) {
   .headBackground {
-    background: transparent;
-    width: 95vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 99vw;
     background-size: cover;
 
     padding: 5px;

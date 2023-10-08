@@ -10,7 +10,7 @@ const Account = props => {
     Cookies.remove('jwt_token')
     history.replace('/login')
   }
-
+  const name = Cookies.get('name')
   return (
     <div className="accountBackground">
       <Header />
@@ -20,8 +20,8 @@ const Account = props => {
         <div className="membership_pass_container">
           <p className="memberShip">Member ship </p>
           <div className="nameAndPass ">
-            <p className="gmail">rahul@gmail.com</p>
-            <p className="pass">Password : ************</p>
+            <p className="gmail">{name}@gmail.com</p>
+            <p className="pass">Password : *******</p>
           </div>
         </div>
         <hr className="lineBrake" />

@@ -26,6 +26,7 @@ class Search extends Component {
 
   getSearchMoviesDetails = async () => {
     const {status, searchInput} = this.state
+    console.log(status)
 
     this.setState({status: initial.loading})
 
@@ -132,8 +133,8 @@ class Search extends Component {
   }
 
   render() {
-    const {menuSearchList, status} = this.state
-    console.log(status)
+    const {menuSearchList} = this.state
+    // console.log(status)
     return (
       <div className="search_background">
         <div className="both_options_nav">

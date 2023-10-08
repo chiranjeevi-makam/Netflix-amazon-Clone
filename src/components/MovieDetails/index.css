@@ -6,7 +6,6 @@
 .moviesPoster {
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
 }
 .moviePosterDetailsArrange {
   display: flex;
@@ -23,6 +22,8 @@
   letter-spacing: 0px;
   text-align: left;
   color: #ffffff;
+  padding-left: 15px;
+  margin: 1px;
 }
 .movie_overview {
   width: 296px;
@@ -37,6 +38,7 @@
   text-align: left;
   color: #ffffff;
   overflow: hidden;
+  padding-left: 15px;
 }
 .movieplayButton {
   width: Hug (76px);
@@ -44,6 +46,13 @@
   top: 342px;
   left: 32.5px;
   border-radius: 3px;
+  padding-left: 15px;
+}
+.dateAndTime {
+  display: flex;
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 15px;
 }
 @media (min-width: 768px) {
   .moviePosterDetailsArrange {
@@ -62,11 +71,13 @@
     letter-spacing: 0px;
     text-align: left;
     color: #ffffff;
+    padding-left: 30px;
   }
   .dateAndTime {
     display: flex;
     color: #ffffff;
     font-size: 48px;
+    padding-left: 30px;
   }
 
   .movie_overview {
@@ -82,6 +93,7 @@
     text-align: left;
     color: #ffffff;
     overflow: hidden;
+    padding-left: 30px;
   }
   .movieplayButton {
     width: Hug (74px);
@@ -90,6 +102,7 @@
     border-radius: 4px;
     gap: 8px;
     margin-bottom: 3px;
+    padding-left: 30px;
   }
 }
 .dateAndTime {
@@ -164,7 +177,15 @@
 .movieDetailsFinalCard {
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
+  padding-left: 5px;
+}
+
+@media (min-width: 768px) {
+  .movieDetailsFinalCard {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
 }
 
 .moreViesHead {

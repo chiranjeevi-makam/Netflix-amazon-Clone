@@ -50,8 +50,7 @@ class Poster extends Component {
         overview: randomObject.overview,
       }
 
-      this.setState({status: initial.success})
-      this.setState({object: updateObject})
+      this.setState({status: initial.success, object: updateObject})
     } else {
       this.setState({status: initial.fail})
     }

@@ -19,7 +19,10 @@ class Login extends Component {
 
   success = jwtToken => {
     const {history} = this.props
-    history.replace('/')
+
+    setTimeout(() => {
+      history.replace('/')
+    }, 0)
     Cookies.set('jwt_token', jwtToken, {expires: 10})
   }
 
@@ -49,6 +52,8 @@ class Login extends Component {
     console.log(data)
     if (response.ok) {
       this.success(data.jwt_token)
+      Cookies.set('name', username, {expires: 30})
+      Cookies.set('password', password, {expires: 30})
     } else {
       this.fail(data.error_msg)
     }
@@ -84,6 +89,7 @@ class Login extends Component {
               className="inputElememt"
               id="username"
               onChange={this.updateName}
+              placeholder="rahul"
             />
           </div>
           <br />
@@ -98,6 +104,7 @@ class Login extends Component {
               className="inputElememt"
               id="userpassword"
               onChange={this.updatePassword}
+              placeholder="rahul@2021"
             />
           </div>
 

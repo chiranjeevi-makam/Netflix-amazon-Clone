@@ -114,7 +114,11 @@ class MovieDetails extends Component {
           }}
           className="moviesPoster"
         >
-          <Header />
+          <Header
+            style={{
+              width: '99vw',
+            }}
+          />
           <div className="moviePosterDetailsArrange">
             <div className="movieTitle">{newData.title}</div>
             <div className="dateAndTime">
