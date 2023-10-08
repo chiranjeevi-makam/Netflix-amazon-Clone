@@ -65,13 +65,13 @@ class Poster extends Component {
       <div
         className="posterBackground"
         style={{
-          backgroundSize: 'cover',
           backgroundImage: `url(${backdropPath})`,
+          backgroundRepeat: 'no-repeat',
 
           width: '99vw',
         }}
       >
-        <Header />
+        <Header style={{position: 'fixed', top: '0px'}} />
         <h1 className="headinghome">{title}</h1>
         <p className="parahome">{overview}</p>
         <div>

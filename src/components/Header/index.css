@@ -2,7 +2,6 @@
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
   background-size: cover;
-
   padding: 5px;
 }
 .logoandmenu {
@@ -63,7 +62,6 @@
     background-color: rgba(0, 0, 0, 0.5);
     width: 99vw;
     background-size: cover;
-
     padding: 5px;
     display: flex;
     height: 103px;

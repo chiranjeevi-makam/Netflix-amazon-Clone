@@ -5,8 +5,8 @@
   display: flex;
 
   flex-direction: column;
-
-  margin: 2px;
+  padding-top: 0px;
+  justify-content: flex-start;
 }
 .details {
   align-self: flex-start;
@@ -55,9 +55,7 @@
     display: flex;
     width: 90vw;
     flex-direction: column;
-    justify-content: flex-end;
-
-    margin: 2px;
+    justify-content: flex-start;
   }
   .parahome {
     width: 632px;
